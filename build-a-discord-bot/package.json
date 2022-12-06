@@ -1,0 +1,15 @@
+{
+  "name": "build-a-discord-bot",
+  "version": "1.0.0",
+  "description": "In this workshop, you will learn how to build your first Discord bot using Node.js and Discord.js, and locally host it on your computer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
